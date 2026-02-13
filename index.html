@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>dw im coming back xoxo</title>
+
+  <!-- pixel heart tab icon -->
+  <link rel="icon" type="image/svg+xml"
+  href="data:image/svg+xml,
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' shape-rendering='crispEdges'>
+  <rect width='16' height='16' fill='white'/>
+  <rect x='4' y='2' width='2' height='2' fill='%23ff5ea8'/>
+  <rect x='6' y='2' width='2' height='2' fill='%23ff5ea8'/>
+  <rect x='8' y='2' width='2' height='2' fill='%23ff5ea8'/>
+  <rect x='10' y='2' width='2' height='2' fill='%23ff5ea8'/>
+  <rect x='2' y='4' width='12' height='6' fill='%23ff5ea8'/>
+  <rect x='4' y='10' width='8' height='2' fill='%23ff5ea8'/>
+  <rect x='6' y='12' width='4' height='2' fill='%23ff5ea8'/>
+  </svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- floating hearts layer -->
+  <div id="fx-layer" aria-hidden="true"></div>
+
+  <main class="wrap">
+    <header class="hero">
+      <div class="badge">💌</div>
+      <h1>days until im back <span class="heart">♡</span></h1>
+      <p class="sub">
+        try not to miss me toooo much &lt;3
+      </p>
+    </header>
+
+    <section class="card">
+      <div class="timer">
+        <div class="tbox">
+          <div class="num" id="days">0</div>
+          <div class="label">days</div>
+        </div>
+        <div class="tbox">
+          <div class="num" id="hours">0</div>
+          <div class="label">hours</div>
+        </div>
+        <div class="tbox">
+          <div class="num" id="minutes">0</div>
+          <div class="label">minutes</div>
+        </div>
+        <div class="tbox">
+          <div class="num" id="seconds">0</div>
+          <div class="label">seconds</div>
+        </div>
+      </div>
+
+      <div class="progress-wrap">
+        <div class="progress-top">
+          <span id="progressText">progress</span>
+          <span class="muted" id="progressPct">0%</span>
+        </div>
+        <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="bar-fill" id="barFill"></div>
+        </div>
+        <p class="tiny muted" id="statusLine">loading…</p>
+      </div>
+    </section>
+
+    <section class="card messages">
+      <div class="messages-head">
+        <h2>daily little notes</h2>
+      </div>
+
+      <p class="muted tiny">
+        one unlocks each day ♡
+      </p>
+
+      <div id="messageList" class="message-list" aria-live="polite"></div>
+    </section>
+
+    <footer class="footer muted tiny">
+      made with love ♡
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

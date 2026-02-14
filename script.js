@@ -190,7 +190,7 @@ function renderMessages() {
       body.textContent = "🔒 locked";
       meta.textContent = `unlocks ${formatUnlockDate(unlockDate)}`;
     } else {
-      body.textContent = opened[i] ? `“${text}”` : "click to open ♡";
+      body.textContent = opened[i] ? text : "click to open ♡";
       meta.textContent = opened[i] ? "opened" : `unlocked ${formatUnlockDate(unlockDate)}`;
     }
 

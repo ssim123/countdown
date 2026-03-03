@@ -25,7 +25,7 @@ const SCHEDULE = [
   { date: `2026-03-01T00:00:00${SYDNEY_OFFSET}`, text: "hope ur morning run puts u in a good mood!" },
   { date: `2026-03-02T00:00:00${SYDNEY_OFFSET}`, text: "missing my monkey like crazy today, you make my life so much brighter and softer" },
   { date: `2026-03-03T00:00:00${SYDNEY_OFFSET}`, text: "hope today is kind to you <3" },
-  { date: `2026-03-04T00:00:00${SYDNEY_OFFSET}`, text: "oooh gym ben today! smash ur sesh cant wait to see u and ur big muscles again 😋" },
+  { date: `2026-03-04T00:00:00${SYDNEY_OFFSET}`, text: "oooh gym ben today! smash ur sesh!! i cant wait to see u and ur big muscles again 😋" },
   { date: `2026-03-05T00:00:00${SYDNEY_OFFSET}`, text: "FOOTYS BACK WOOHOO!! get ready for a charlie curnow masterclass (or disasterclass)" },
   { date: `2026-03-06T00:00:00${SYDNEY_OFFSET}`, text: "not loooooong now ben 😽 (good luck w geelong tonight, im sure dicky will be cheering them on)" },
   { date: `2026-03-07T00:00:00${SYDNEY_OFFSET}`, text: "pls send me a miles update 🙏 missing my son (and u obvi)" },
